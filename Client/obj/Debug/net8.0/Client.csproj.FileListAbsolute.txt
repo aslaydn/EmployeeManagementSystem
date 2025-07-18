@@ -1072,3 +1072,4 @@ C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Client\obj\Debu
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\a0iirkk2zr.gz
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\ar2knrtgqx.gz
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\azgkt7andn.gz
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\Client.sourcelink.json

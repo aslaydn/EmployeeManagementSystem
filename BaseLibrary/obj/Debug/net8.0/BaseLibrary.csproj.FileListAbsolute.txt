@@ -10,3 +10,4 @@ C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\BaseLibrary\obj
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.sourcelink.json

@@ -9,3 +9,4 @@ C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\o
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\refint\ClientLibrary.dll
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.pdb
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ref\ClientLibrary.dll
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.sourcelink.json
