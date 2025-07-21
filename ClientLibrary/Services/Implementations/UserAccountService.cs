@@ -27,9 +27,13 @@ namespace ClientLibrary.Services.Implementations
             return await result.Content.ReadFromJsonAsync<LoginResponse>()!;
         }
 
-        public Task<LoginResponse> RefreshTokenAsync(RefreshToken token)
+        public async Task<LoginResponse> RefreshTokenAsync(RefreshToken token)
         {
-            throw new NotImplementedException();
+            var httpClient = getHttpClient.GetPublicHttpClient();
+            var result = await httpClient.PostAsJsonAsync($"{AuthUrl}/refresh-token", token);
+            if (!result.IsSuccessStatusCode) return new LoginResponse(false, "hata oluştu.");
+
+            return await result.Content.ReadFromJsonAsync<LoginResponse>()!;
         }
 
         public async Task<WeatherForecast[]> GetWeatherForecasts()
