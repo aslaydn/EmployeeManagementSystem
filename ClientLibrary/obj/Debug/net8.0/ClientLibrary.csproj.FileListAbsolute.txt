@@ -10,3 +10,7 @@ C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\o
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.pdb
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ref\ClientLibrary.dll
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.sourcelink.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\BaseLibrary.dll
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLi.3D08BA28.Up2Date
