@@ -1,51 +1,98 @@
 ﻿@page "/identity/account/register"
+@layout AuthenticationLayout
+@using Client.Pages.OtherPages
+@using Syncfusion.Blazor.Popups
+@inject SfDialogService DialogService
+
 <div class="container">
     <div class="row">
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
             <EditForm Enhance Model="User" OnValidSubmit="HandleRegistration">
                 <DataAnnotationsValidator />
-                <ValidationSummary />
-                <div class="card">
-                    <div class="card-header">Kaydolmak için formu doldurun</div>
-                    <div class="card-body">
-                        <div class="form-group">
-                            <label class="form-label">Ad Soyad</label>
-                            <InputText class="form-control" @bind-Value="User.FullName" />
-                        </div>
-                        <div class="form-group mt-3">
-                            <label class="form-label">Email</label>
-                            <InputText class="form-control" @bind-Value="User.Email" />
-                        </div>
-                        <div class="form-group mt-3">
-                            <label class="form-label">Şifre</label>
-                            <input type="password" @bind="User.Password" class="form-control" />
-                        </div>
-                        <div class="form-group mt-3">
-                            <label class="form-label">Şifreyi doğrula</label>
-                            <input type="password" @bind="User.ConfirmPassword" class="form-control" />
-                        </div>
-                        <div class="form-group mt-3">
-                            <butoon class="btn btn-outline-primary float-end" type="submit">Kaydol</butoon>
+                <div class="card bg-dark d-flex justify-content-center compact-form"
+                     style="opacity:0.5; margin-top:20%; border-radius:8px; color:white; font-weight:bold; max-width: 320px; margin-left: auto; margin-right: auto;">
+                    <div class="card-header text-center" style="font-size: 1.1rem; padding: 0.5rem;">Bir hesap açın</div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-4 d-flex justify-content-center">
+                                <img style="border-radius:15px" src="../images/companylogos/logo5.png" height="35" width="35" />
+                            </div>
+                            <div class="col-4"></div>
                         </div>
                     </div>
-                </div>
+                    <div class="card-body" style="padding: 1rem;">
+                        <div class="form-group mb-2">
+                            <label class="form-label" style="font-size: 0.85rem; margin-bottom: 0.3rem;">Ad Soyad</label>
+                            <InputText class="form-control form-control-sm" @bind-Value="User.FullName" />
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="form-label" style="font-size: 0.85rem; margin-bottom: 0.3rem;">Email</label>
+                            <InputText class="form-control form-control-sm" @bind-Value="User.Email" />
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="form-label" style="font-size: 0.85rem; margin-bottom: 0.3rem;">Şifre</label>
+                            <input type="password" @bind="User.Password" class="form-control form-control-sm" />
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="form-label" style="font-size: 0.85rem; margin-bottom: 0.3rem;">Şifreyi doğrula</label>
+                            <input type="password" @bind="User.ConfirmPassword" class="form-control form-control-sm" />
+                        </div>
+                        <div class="form-group mt-2">
+                            @if (ShowLoadingButton)
+                            {
+                                <ButtonLoadingSpinner></ButtonLoadingSpinner>
+                            }
+                            else
+                            {
+                                <button class="btn btn-outline-primary btn-sm float-end" type="submit" style="font-size: 0.85rem;">Kaydol</button>
+                            }
 
+                        </div>
+                    </div>
+                    <div class="card-footer" style="padding: 0.5rem; font-size: 0.8rem;">
+                        <span class="text-center">
+                            Zaten bir hesabınız var mı? |
+                            <a class="btn-link" href="identity/account/login" style="font-size: 0.8rem;">Giriş yap</a>
+                        </span>
+                        <ValidationSummary />
+                    </div>
+                </div>
             </EditForm>
         </div>
+        <div class="col-lg-3"></div>
     </div>
 </div>
 
+<style>
+    .compact-form {
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+</style>
+
 @code {
+    public bool ShowLoadingButton { get; set; } = false;
     Register User = new();
     async Task HandleRegistration()
     {
+        ShowLoadingButton = true;
         var result = await accountService.CreateAsync(User);
         if (result.Flag)
         {
+            await DisplayDialog(result.Message, "Kayıt Başarılı");
             User = new();
         }
         else
         {
+            await DisplayDialog(result.Message, "Hata");
         }
+        ShowLoadingButton = false;
+    }
+
+    private async Task DisplayDialog(string content, string title)
+    {
+        await DialogService.AlertAsync(content, title);
     }
 }
