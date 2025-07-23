@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Zw7OXNBWhLuYtFpY/elGLky+JcCLItDsxIjvN0WA0Q=",
+  "Hash": "HZozDMorewzfowyiOnIQLhrtZUm9TVN7+/muSgxuuQI=",
   "Source": "Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -52132,6 +52132,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\companylogos\\logo5.png"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\images\\Profile\\defaultprofileimage.jpg",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/Profile/defaultprofileimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Profile\\defaultprofileimage.jpg"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\index.html",

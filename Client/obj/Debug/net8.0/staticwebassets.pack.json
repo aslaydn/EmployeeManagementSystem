@@ -8913,6 +8913,10 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\images\\Profile\\defaultprofileimage.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\defaultprofileimage.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\images\\admin.png",
       "PackagePath": "staticwebassets\\images\\admin.png"
     },
