@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\entities\\sanctiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\sanctiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +35,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwBEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T13:58:12.901Z",
+              "WhenOpened": "2025-07-24T13:06:51.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Client\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Client\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T11:37:02.668Z",
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\Doctor.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\Doctor.cs",
+              "RelativeToolTip": "BaseLibrary\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:02:42.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomePage.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\HomePage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\HomePage.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\HomePage.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPages\\HomePage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T06:56:25.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\UserSession.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\UserSession.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\UserSession.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\UserSession.cs",
+              "Title": "SanctionType.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\SanctionType.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\SanctionType.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\SanctionType.cs",
+              "RelativeToolTip": "BaseLibrary\\Entities\\SanctionType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T11:09:48.91Z"
+              "WhenOpened": "2025-07-24T12:49:00.737Z",
+              "EditorCaption": ""
             }
           ]
         }
