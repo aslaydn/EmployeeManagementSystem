@@ -74,7 +74,7 @@ namespace ServerLibrary.Repositories.Implementations
             string jwtToken = GenerateToken(applicationUser, getRoleName!.Name!);
             string refreshToken = GenerateRefreshToken();
 
-            //refresh tokeni veritabanına kaydet.
+            //refresh tokeni veritabanına kaydet
             var findUser = await appDbContext.RefreshTokenInfos.FirstOrDefaultAsync(_ => _.UserId == applicationUser.Id);
             if (findUser is not null)
             {

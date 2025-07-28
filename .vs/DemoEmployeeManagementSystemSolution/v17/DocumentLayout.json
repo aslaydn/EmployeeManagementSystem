@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\profiledropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\profiledropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\entities\\sanctiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{460C467B-C9F7-499A-A3D6-F92F46C0504E}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\sanctiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwBEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:06:51.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\Doctor.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\Doctor.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\Doctor.cs",
-              "RelativeToolTip": "BaseLibrary\\Entities\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:02:42.083Z",
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "Client\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-28T07:48:06.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SanctionType.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\SanctionType.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\SanctionType.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\SanctionType.cs",
-              "RelativeToolTip": "BaseLibrary\\Entities\\SanctionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "UserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T12:49:00.737Z",
+              "WhenOpened": "2025-07-28T06:36:47.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileDropDown.razor",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\ProfileDropDown.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\ProfileDropDown.razor",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\ProfileDropDown.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\ProfileDropDown.razor",
+              "ViewState": "AgIAABcBAAAAAAAAAAAAADYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T14:21:02.253Z",
               "EditorCaption": ""
             }
           ]

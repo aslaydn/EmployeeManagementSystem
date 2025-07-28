@@ -1,4 +1,4 @@
-.navbar-toggler {
+/*.navbar-toggler {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -70,14 +70,158 @@
         display: none;
     }
 
-    .collapse {
+    .collapse {*/
         /* Never collapse the sidebar for wide screens */
-        display: block;
+        /*display: block;
     }
     
-    .nav-scrollable {
+    .nav-scrollable {*/
         /* Allow sidebar to scroll for tall menus */
+        /*height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}*/
+
+
+/* NavMenu.razor.css */
+
+/*.top-row {
+    height: 3.5rem;
+    background-color: #563d7c;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+    color: white !important;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+}*/
+
+/* Masaüstünde menüyü her zaman göster */
+/*@media (min-width: 641px) {
+    .nav-scrollable {
+        display: block !important;
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+
+    .navbar-toggler {
+        display: none;
+    }
+}*/
+
+/* Mobilde menü kontrolü */
+/*@media (max-width: 640px) {
+    .nav-scrollable {
+        display: block;
+        height: auto;
+    }
+
+        .nav-scrollable.collapse {
+            display: none;
+        }
+
+        .nav-scrollable.show {
+            display: block;
+        }
+}*/
+
+/* Genel nav stilleri */
+/*.nav-scrollable {
+    background-color: #563d7c;
+    padding-top: 1rem;
 }
+
+.nav-item {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type {
+        padding-bottom: 1rem;
+    }
+
+.nav-link {
+    color: #d7d7d7 !important;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+    .nav-link:hover {
+        background-color: rgba(255,255,255,0.1);
+        color: white !important;
+    }
+
+    .nav-link.active {
+        background-color: rgba(255,255,255,0.25);
+        color: white !important;
+    }*/
+
+/* Alt menü stilleri */
+/*.sub-menu {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+    .sub-menu .nav-link {
+        font-size: 0.8rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        padding-left: 1rem;
+    }*/
+
+/* Icon stilleri */
+/*.nav-link i {
+    width: 1.5rem;
+    text-align: center;
+}*/
+
+ Responsive 
+@media (max-width: 768px) {
+    .mobile-toggle {
+        display: block;
+    }
+
+    .sidebar-nav.collapse {
+        display: none;
+    }
+
+    .sidebar-nav.show {
+        display: block;
+    }
+
+    .nav-item {
+        padding: 0.8rem 1rem;
+    }
+
+    .sub-nav-item {
+        padding: 0.6rem 2rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .sidebar-nav {
+        display: block !important;
+    }
+
+     Animasyonlar 
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        to {
+            opacity: 1;
+            max-height: 300px;
+        }
+    }

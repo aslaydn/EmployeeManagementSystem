@@ -24,40 +24,13 @@ namespace ClientLibrary.Helpers
             return await Task.FromResult(new AuthenticationState(claimsPrincipal));
         }
 
-        //public override async Task<AuthenticationState> GetAuthenticationStateAsync()
-        //{
-        //    var stringToken = await localStorageService.GetToken();
-        //    if (string.IsNullOrEmpty(stringToken))
-        //        return await Task.FromResult(new AuthenticationState(anonymous));
-
-        //    try
-        //    {
-        //        var deserializeToken = Serializations.DeserializeJsonString<UserSession>(stringToken);
-        //        if (deserializeToken == null || string.IsNullOrEmpty(deserializeToken.Token))
-        //            return await Task.FromResult(new AuthenticationState(anonymous));
-
-        //        var getUserClaims = DecryptToken(deserializeToken.Token!);
-        //        if (getUserClaims == null)
-        //            return await Task.FromResult(new AuthenticationState(anonymous));
-
-        //        var claimsPrincipal = SetClaimPrincipal(getUserClaims);
-        //        return await Task.FromResult(new AuthenticationState(claimsPrincipal));
-        //    }
-        //    catch (JsonException ex)
-        //    {
-        //        Console.WriteLine($"JSON Deserialization Error: {ex.Message}");
-        //        await localStorageService.RemoveToken(); // Bozuk veriyi temizle
-        //        return await Task.FromResult(new AuthenticationState(anonymous));
-        //    }
-        //}
-
         public async Task UpdateAuthenticationState(UserSession userSession)
         {
             var claimsPrincipal = new ClaimsPrincipal();
             if (userSession.Token != null || userSession.RefreshToken != null)
             {
-                var serializeSession = Serializations.SerializeObj(userSession);
-                await localStorageService.SetToken(serializeSession);
+                //var serializeSession = Serializations.SerializeObj(userSession);
+                await localStorageService.SetToken(userSession);
                 var getUserClaims = DecryptToken(userSession.Token!);
                 claimsPrincipal = SetClaimPrincipal(getUserClaims);
             }
