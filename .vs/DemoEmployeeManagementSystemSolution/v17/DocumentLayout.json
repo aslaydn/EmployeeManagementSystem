@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\profiledropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\profiledropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1980F1CC-7790-4875-AEF1-4DEB05A84952}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05B15D44-71A3-446A-A957-B035A94A74E2}|ClientLibrary\\ClientLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\clientlibrary\\services\\implementations\\genericserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B15D44-71A3-446A-A957-B035A94A74E2}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\services\\implementations\\genericserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "Client\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "Client\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-28T07:48:06.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T06:36:47.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProfileDropDown.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "RelativeToolTip": "Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "ViewState": "AgIAABcBAAAAAAAAAAAAADYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T14:21:02.253Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACoAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:56:44.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericServiceImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
+              "RelativeToolTip": "ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T12:06:52.212Z",
               "EditorCaption": ""
             }
           ]
