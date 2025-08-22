@@ -24,7 +24,7 @@ var jwtSection = builder.Configuration.GetSection(nameof(JwtSection)).Get<JwtSec
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ??
-        throw new InvalidOperationException("Sorry, your connection is not found."));
+        throw new InvalidOperationException("Baðlantýnýz bulunamadý."));
 
 });
 
@@ -55,6 +55,16 @@ builder.Services.AddScoped<IGenericRepositoryInterface<Branch>, BranchRepository
 builder.Services.AddScoped<IGenericRepositoryInterface<Country>, CountryRepository>();
 builder.Services.AddScoped<IGenericRepositoryInterface<City>, CityRepository>();
 builder.Services.AddScoped<IGenericRepositoryInterface<Town>, TownRepository>();
+
+builder.Services.AddScoped<IGenericRepositoryInterface<Doctor>, DoctorRepository>();
+builder.Services.AddScoped<IGenericRepositoryInterface<Sanction>, SanctionRepository>();
+builder.Services.AddScoped<IGenericRepositoryInterface<SanctionType>, SanctionTypeRepository>();
+builder.Services.AddScoped<IGenericRepositoryInterface<Overtime>, OvertimeRepository>();
+builder.Services.AddScoped<IGenericRepositoryInterface<OvertimeType>, OvertimeTypeRepository>();
+builder.Services.AddScoped<IGenericRepositoryInterface<Vacation>, VacationRepository>();
+builder.Services.AddScoped<IGenericRepositoryInterface<VacationType>, VacationTypeRepository>();
+
+builder.Services.AddScoped<IGenericRepositoryInterface<Employee>, EmployeeRepository>();
 
 builder.Services.AddCors(options =>
 {

@@ -13,5 +13,6 @@ namespace BaseLibrary.Entities
 
         //vacation type ile çoğun bire ilişkisi
         public SanctionType? SanctionType { get; set; }
+        public int SanctionTypeId { get; set; }
     }
 }

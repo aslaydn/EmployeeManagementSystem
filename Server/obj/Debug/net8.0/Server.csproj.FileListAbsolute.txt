@@ -133,11 +133,6 @@ C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debu
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.sourcelink.json
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.csproj.Up2Date
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.dll
@@ -145,3 +140,11 @@ C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debu
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\bin\Debug\net8.0\Server.staticwebassets.endpoints.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Source\Repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,0 +1,49 @@
+﻿<SfDialog Width="350px" IsModal="true" ShowCloseIcon="true" @bind-Visible="IsVisible">
+    <DialogEvents OnOpen="OpenDialog"> </DialogEvents>
+    <DialogTemplates>
+        <Header>Mesai Türü @Title</Header>
+        <Content>
+            <EditForm Model="OvertimeType" Enhance OnSubmnit="Save">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="form-label">İsim</label>
+                            <InputText @bind-Value="OvertimeType.Name" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </EditForm>
+        </Content>
+    </DialogTemplates>
+
+    <DialogButtons>
+        <DialogButton Content="KAYDET" Type="ButtonType.Submit" IsPrimary="true" OnClick="Save"/>
+    </DialogButtons>
+</SfDialog>
+
+@code {
+    [Parameter] public OvertimeType OvertimeType { get; set; } = new();
+    [Parameter] public EventCallback<OvertimeType> HandleSaveOperationEvent { get; set; }
+    public string Title { get; set; } = "Ekle";
+    private bool IsVisible { get; set; } = false;
+    private async void Save()
+    {
+        if (string.IsNullOrEmpty(OvertimeType.Name))
+            await dialogService.AlertAsync("Lütfen ilgili yerleri boş bırakmayın.", "Uyarı!");
+        else
+            await HandleSaveOperationEvent.InvokeAsync(OvertimeType);
+    }
+
+    public void OpenDialog()
+    {
+        IsVisible = true;
+        StateHasChanged();
+    }
+    public void CloseDialog()
+    {
+        IsVisible = false;
+        StateHasChanged();
+    }
+
+    public void ChangeTitle(string title) => Title = title;
+}

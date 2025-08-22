@@ -12,5 +12,6 @@ namespace BaseLibrary.Entities
 
         // VacationType ile çoğun bire ilişkisi
         public int VacationTypeId { get; set; }
+        public VacationType? VacationType { get; set; }
     }
 }

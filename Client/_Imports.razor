@@ -8,11 +8,51 @@
 @using Microsoft.JSInterop
 @using Client
 @using Client.Layout
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Grids
+@using BaseLibrary.Entities
+
+@using Client.Pages.OtherPages
+@using Client.Pages.ContentPages.DepartmentPages
+@using Client.Pages.ContentPages.LocationPages
+@using Client.Pages.ContentPages.UserPages
+@using Client.Pages.ContentPages.EmployeePages
+@using Client.Pages.OtherPages.DoctorPages
+@using Client.Pages.OtherPages.OvertimePages
+@using Client.Pages.OtherPages.SanctionPages
+@using Client.Pages.OtherPages.VacationPages
 
 @using ClientLibrary.Helpers
 @using BaseLibrary.DTOs
 @using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Authorization
 @using ClientLibrary.Services.Contracts
+@using Client.ApplicationState
 @inject AuthenticationStateProvider AuthStateProvider
-@inject IUserAccountService accountService
 @inject NavigationManager NavManager
+@* /Authentication *@
+@inject IUserAccountService accountService
+@* /Navbar tabs communication state handling *@
+@inject AllState allState
+@* /Syncfusion dialog service *@
+@inject SfDialogService dialogService
+@* /General Departments / Department / Branch *@
+@inject IGenericServiceInterface<GeneralDepartment> generalDepartmentService
+@inject IGenericServiceInterface<Department> departmentService
+@inject IGenericServiceInterface<Branch> branchService
+@* /Country / City / Town *@
+@inject IGenericServiceInterface<Country> countryService
+@inject IGenericServiceInterface<City> cityService
+@inject IGenericServiceInterface<Town> townService
+@* Ek Tablolar *@
+@inject IGenericServiceInterface<Overtime> overtimeService
+@inject IGenericServiceInterface<OvertimeType> overtimeTypeService
+@inject IGenericServiceInterface<Doctor> doctorService
+@inject IGenericServiceInterface<Sanction> sanctionService
+@inject IGenericServiceInterface<SanctionType> sanctionTypeService
+@inject IGenericServiceInterface<Vacation> vacationService
+@inject IGenericServiceInterface<VacationType> vacationTypeService
+
+@* /Employee *@
+@inject IGenericServiceInterface<Employee> employeeService

@@ -18,13 +18,17 @@ namespace ServerLibrary.Repositories.Implementations
             return Success();
         }
 
-        public async Task<List<Branch>> GetAll() => await appDbContext.Branches.ToListAsync();
+        public async Task<List<Branch>> GetAll() => await appDbContext
+            .Branches
+            .AsNoTracking()
+            .Include(d => d.Department)
+            .ToListAsync();
 
         public async Task<Branch> GetById(int id) => await appDbContext.Branches.FindAsync(id);
 
         public async Task<GeneralResponse> Insert(Branch item)
         {
-            if (!await CheckName(item.Name!)) return new GeneralResponse(false, "Bu isimde bir şube zaten var.");
+            if (!await CheckName(item.Name!)) return new GeneralResponse(false, "Bu isimde bir Birim zaten var.");
             appDbContext.Branches.Add(item);
             await Commit();
             return Success();
@@ -32,14 +36,15 @@ namespace ServerLibrary.Repositories.Implementations
 
         public async Task<GeneralResponse> Update(Branch item)
         {
-            var dep = await appDbContext.Branches.FindAsync(item.Id);
-            if (dep is null) return NotFound();
-            dep.Name = item.Name;
+            var branch = await appDbContext.Branches.FindAsync(item.Id);
+            if (branch is null) return NotFound();
+            branch.Name = item.Name;
+            branch.DepartmentId = item.DepartmentId;
             await Commit();
             return Success();
         }
 
-        private static GeneralResponse NotFound() => new(false, "Şube bulunamadı.");
+        private static GeneralResponse NotFound() => new(false, "Birim bulunamadı.");
         private static GeneralResponse Success() => new(true, "İşlem başarılı.");
         private async Task Commit() => await appDbContext.SaveChangesAsync();
         private async Task<bool> CheckName(string name)

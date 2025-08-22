@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\tablebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\tablebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05B15D44-71A3-446A-A957-B035A94A74E2}|ClientLibrary\\ClientLibrary.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\clientlibrary\\services\\implementations\\genericserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B15D44-71A3-446A-A957-B035A94A74E2}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\services\\implementations\\genericserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|c:\\users\\admin\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\employeepages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B759FC26-D451-423F-88C8-F8C580F6B533}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\employeepages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACoAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T13:56:44.025Z",
+              "Title": "TableBanner.razor",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\TableBanner.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\TableBanner.razor",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\TableBanner.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\TableBanner.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T06:10:40.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GenericServiceImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
-              "RelativeDocumentMoniker": "ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
-              "RelativeToolTip": "ClientLibrary\\Services\\Implementations\\GenericServiceImplementation.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T12:06:52.212Z",
+              "Title": "EmployeePage.razor",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T12:04:42.21Z",
               "EditorCaption": ""
             }
           ]
